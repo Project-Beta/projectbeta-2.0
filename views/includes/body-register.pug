@@ -1,0 +1,168 @@
+section.container
+
+    include ./sidebar-register.pug
+
+    section.main.flex.light#particles-js
+
+        canvas
+
+        .container.flex
+
+            .container.flex#ui-view(style="justify-content:space-between")
+
+                #register.container.ui-state.flex
+
+                    h1 Register
+
+                    if (emailed !== undefined)
+
+                        p #{msg}
+
+                    else
+
+                        if (success === true)
+
+                            h2 Welcome, <strong>#{school}</strong>
+                            p To confirm your registration and participation at ProjectBeta 2.0, please fill in the form.
+
+                            .section#stage2
+
+                                form(action='/register' method='POST').flex
+
+                                    h3 Incharge Name *
+                                    input(type="text" name="incharge_name" placeholder="Full name" required)
+
+                                    h3 Incharge Email *
+                                    input(type="email" name="incharge_email" placeholder="Email ID" required)
+
+                                    h3 Incharge Phone Number *
+                                    input(type="tel" name="incharge_number" placeholder="Phone number" required)
+
+                                    .hr
+
+                                    h2 Function Overload
+                                    h4 Programming
+
+                                    .participants
+                                    
+                                        each i in [1, 2]
+                                            .participant
+                                                h3 Participant !{i}
+                                                input(type="text" name="fo_p"+i+"_name" placeholder="Full name")
+                                                input(type="email" name="fo_p"+i+"_email" placeholder="Email ID")
+
+                                    .hr
+
+                                    h2 Monochrome
+                                    h4 web + design
+
+
+                                    .participants
+                                    
+                                        each i in [1, 2, 3]
+                                            .participant
+                                                h3 Participant !{i}
+                                                input(type="text" name="mc_p"+i+"_name" placeholder="Full name")
+                                                input(type="email" name="mc_p"+i+"_email" placeholder="Email ID")
+                                    
+                                    .hr
+
+                                    h2 Rush_B
+                                    h4 Gaming
+                                    
+
+                                    .participants
+                                    
+                                        each i in [1, 2, 3, 4, 5]
+                                            .participant
+                                                h3 Participant !{i}
+                                                input(type="text" name="rb_p"+i+"_name" placeholder="Full name")
+                                                input(type="email" name="rb_p"+i+"_email" placeholder="Email ID")
+
+                                    .hr
+
+                                    h2 (In)Vested Interests
+                                    h4 Pitch
+
+                                    .participants
+                                    
+                                        each i in [1, 2, 3]
+                                            .participant
+                                                h3 Participant !{i}
+                                                input(type="text" name="ivi_p"+i+"_name" placeholder="Full name")
+                                                input(type="email" name="ivi_p"+i+"_email" placeholder="Email ID")
+
+                                    .hr
+
+                                    h2 64wit
+                                    h4 quiz
+
+                                    .participants
+                                    
+                                        each i in [1, 2]
+                                            .participant
+                                                h3 Participant !{i}
+                                                input(type="text" name="sw_p"+i+"_name" placeholder="Full name")
+                                                input(type="email" name="sw_p"+i+"_email" placeholder="Email ID")
+
+                                    .hr
+
+                                    h2 KiloHertz
+                                    h4 Music production
+
+                                    .participants
+                                    
+                                        each i in [1, 2]
+                                            .participant
+                                                h3 Participant !{i}
+                                                input(type="text" name="kh_p"+i+"_name" placeholder="Full name")
+                                                input(type="email" name="kh_p"+i+"_email" placeholder="Email ID")
+
+                                    .hr
+
+                                    input(type="hidden" value=school name="school")
+
+                                    input(type="submit" value="Submit" name="submit")
+
+
+                        else
+
+                            .section#stage1
+
+                                .tabs.flex.noselect
+
+                                    .tab.active Request
+                                    .tab.inactive Confirm
+
+                                form#confirm-form(action="/register" method="POST").nodisplay
+
+                                    h2 Confirm Participation
+
+                                    p Enter the invite code which has been sent via email.<br>If you are facing problems, email <a href="mailto:contact@projectbeta.tech">contact@projectbeta.tech</a>.
+
+                                    if (success === false)
+                                        p#error Entered code is invalid, please try again or contact us</a>.
+
+                                    .flex
+
+                                        input(type="text" name="code" placeholder="Invite code" required)
+
+                                        input(type="submit" value="Submit" name="submit-confirm-form")
+
+                                form#request-form(action="/register" method="POST")
+
+                                    h2 Request Invite
+
+                                    p If your school has not received an invitation from us, fill in the following details and we will get back to you as soon as possible!<br>Contact us at <a href="mailto:contact@projectbeta.tech">contact@projectbeta.tech</a>.
+
+                                    .flex
+
+                                        h3 Name of School *
+                                        input(type="text" name="school-name" placeholder="School name" required)
+
+                                        h3 Contact email *
+                                        input(type="email" name="contact-email" placeholder="Email ID" required)
+
+                                        input(type="submit" value="Submit" name="submit-request-form")
+
+                a(href="home") ↤ Home

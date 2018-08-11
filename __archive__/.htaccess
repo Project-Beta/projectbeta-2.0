@@ -1,0 +1,22 @@
+Options +Indexes
+
+RewriteEngine On
+RewriteBase /
+
+Options +FollowSymlinks
+RewriteEngine On
+# Don't rewrite files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Rewrite everything else to index.html to allow html5 state links
+RewriteRule ^ index.html [L]
+
+ErrorDocument 404 /404
+
+ErrorDocument 400 /400
+
+ErrorDocument 401 /401
+
+ErrorDocument 500 /500

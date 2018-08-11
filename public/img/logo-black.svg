@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="960"
+   height="960"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo-black.svg">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs21" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1861"
+     inkscape:window-height="1056"
+     id="namedview19"
+     showgrid="false"
+     inkscape:zoom="0.88730469"
+     inkscape:cx="247.83623"
+     inkscape:cy="480"
+     inkscape:window-x="59"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <desc
+     iVinci="yes"
+     version="4.6"
+     gridStep="20"
+     showGrid="no"
+     snapToGrid="no"
+     codePlatform="0"
+     id="desc4" />
+  <g
+     id="Layer1"
+     name="Layer 1"
+     opacity="1">
+    <g
+       id="Shape1">
+      <desc
+         shapeID="1"
+         type="0"
+         basicInfo-basicType="0"
+         basicInfo-roundedRectRadius="12"
+         basicInfo-polygonSides="6"
+         basicInfo-starPoints="5"
+         bounding="rect(-452.587,-454.834,905.174,909.668)"
+         text=""
+         font-familyName=""
+         font-pixelSize="20"
+         font-bold="0"
+         font-underline="0"
+         font-alignment="1"
+         strokeStyle="0"
+         markerStart="0"
+         markerEnd="0"
+         shadowEnabled="0"
+         shadowOffsetX="0"
+         shadowOffsetY="2"
+         shadowBlur="4"
+         shadowOpacity="160"
+         blurEnabled="0"
+         blurRadius="4"
+         transform="matrix(1.06057,0,0,1.05533,480,480)"
+         pers-center="0,0"
+         pers-size="0,0"
+         pers-start="0,0"
+         pers-end="0,0"
+         locked="0"
+         mesh=""
+         flag=""
+         id="desc8" />
+      <path
+         id="shapePath1"
+         d="M960,481.017 C959.841,747.526 744.88,960.278 476.047,960 C212.796,959.726 -0.438385,743.226 0.000701904,476.665 C0.435516,213.656 216.721,-0.379456 481.674,0.000488281 C746.292,0.380341 960.158,215.449 960,481.017 M939.576,481.058 C932.174,225.361 741.876,22.9706 480.413,22.4357 C225.405,21.9153 23.2282,217.78 22.4709,479.191 C21.7243,737.108 220.221,936.691 478.535,937.787 C734.888,938.875 930.769,741.404 939.576,481.058 Z"
+         style="stroke:none;fill-rule:evenodd;fill:#000000;fill-opacity:1" />
+    </g>
+    <g
+       id="Shape2">
+      <desc
+         shapeID="2"
+         type="0"
+         basicInfo-basicType="0"
+         basicInfo-roundedRectRadius="12"
+         basicInfo-polygonSides="6"
+         basicInfo-starPoints="5"
+         bounding="rect(-134.62,-312.789,269.239,625.578)"
+         text=""
+         font-familyName=""
+         font-pixelSize="20"
+         font-bold="0"
+         font-underline="0"
+         font-alignment="1"
+         strokeStyle="0"
+         markerStart="0"
+         markerEnd="0"
+         shadowEnabled="0"
+         shadowOffsetX="0"
+         shadowOffsetY="2"
+         shadowBlur="4"
+         shadowOpacity="160"
+         blurEnabled="0"
+         blurRadius="4"
+         transform="matrix(1.06057,0,0,1.05533,602.185,474.426)"
+         pers-center="0,0"
+         pers-size="0,0"
+         pers-start="0,0"
+         pers-end="0,0"
+         locked="0"
+         mesh=""
+         flag=""
+         id="desc12" />
+    </g>
+    <g
+       id="Shape3">
+      <desc
+         shapeID="3"
+         type="0"
+         basicInfo-basicType="0"
+         basicInfo-roundedRectRadius="12"
+         basicInfo-polygonSides="6"
+         basicInfo-starPoints="5"
+         bounding="rect(-117.441,-312.014,234.883,624.028)"
+         text=""
+         font-familyName=""
+         font-pixelSize="20"
+         font-bold="0"
+         font-underline="0"
+         font-alignment="1"
+         strokeStyle="0"
+         markerStart="0"
+         markerEnd="0"
+         shadowEnabled="0"
+         shadowOffsetX="0"
+         shadowOffsetY="2"
+         shadowBlur="4"
+         shadowOpacity="160"
+         blurEnabled="0"
+         blurRadius="4"
+         transform="matrix(1.06057,0,0,1.05533,415.807,473.113)"
+         pers-center="0,0"
+         pers-size="0,0"
+         pers-start="0,0"
+         pers-end="0,0"
+         locked="0"
+         mesh=""
+         flag=""
+         id="desc16" />
+      <g
+         id="g4152"
+         transform="matrix(1.1,0,0,1.1,-51.810468,-47.417842)">
+        <path
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 642.352,463.57 c 62.186,25.105 94.676,72.758 101.358,134.453 7.812,72.124 -20.644,143.606 -97.41,179.048 -43.995,20.313 -122.051,32.41 -173.41,25.493 0,-3.764 0,-7.799 0,-11.833 -0.002,-98.075 0.032,-196.149 -0.066,-294.223 -0.01,-9.9 1.951,-17.521 10.671,-24.552 33.763,-27.22 61.219,-59.409 68.12,-104.081 8.158,-52.792 8.915,-105.199 -20.965,-152.629 -17.914,-28.439 -42.551,-50.669 -71.239,-70.685 15.546,0 31.117,-0.584 46.632,0.108 52.704,2.351 103.306,11.607 148.385,41.997 76.195,51.367 88.165,171.061 48.491,226.639 -15.619,21.883 -35.834,37.514 -60.567,50.265 z"
+           id="shapePath2"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 331.038,492.46 c 0,103.859 0,206.402 0,309.93 -6.214,0 -11.311,0 -17.401,0 0,-8.199 0.004,-16.104 -10e-4,-24.01 -0.083,-96.411 -0.006,-192.826 -0.476,-289.235 -0.052,-10.838 2.505,-14.646 13.966,-14.337 31.107,0.841 62.223,1.309 92.513,-8.662 C 494.255,441.581 527.944,372.069 523.317,307.407 517.804,230.37 466.059,173.6 392.458,164.205 c -28.237,-3.605 -57.103,-2.304 -85.685,-3.181 -4.955,-0.152 -9.918,-0.022 -15.521,-0.022 0,-6.083 0,-10.877 0,-17.167 44.053,2.326 87.86,-4.521 130.933,7.327 67.052,18.448 117.965,83.729 118.166,153.155 0.056,19.269 0.027,39.006 -3.808,57.74 -16.127,78.776 -82.682,129.364 -169.377,130.384 -11.674,0.138 -23.351,0.019 -36.128,0.019 z"
+           id="shapePath3"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+  </g>
+</svg>

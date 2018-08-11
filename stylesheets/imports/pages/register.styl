@@ -1,0 +1,210 @@
+#register
+	flex-direction column
+	align-items flex-start
+	width 100%
+
+	h1
+		width 100%
+	
+	p
+		color white
+
+	.section
+		width 100% !important
+
+	.section#stage1
+		max-width 500px !important
+		padding 0 !important
+		align-self center !important
+
+		h2
+			margin 20px 0
+
+		form
+			padding 15px
+			border 1px solid white
+			border-top none
+			border-bottom-left-radius 6px
+			border-bottom-right-radius 6px
+
+		.tabs
+			width 100%
+			flex-direction row !important
+
+			.tab
+				width 50%
+				padding 10px 0 10px 15px
+				font-size 20px
+				text-transform uppercase
+				font-weight bold
+				cursor pointer
+
+				@media only screen and (max-width: 800px)
+					font-size 16px
+
+				&.active
+					color #d66d4d
+					border-top-right-radius 6px
+					border-top-left-radius 6px
+					border 1px solid white
+					border-bottom 1px solid transparent
+
+				&.inactive
+					color #d66d4dbb
+					border 1px solid transparent
+					border-bottom 1px solid white
+		
+		#confirm-form
+			
+			input[name="code"]
+				width 150px
+				margin-bottom 0
+				letter-spacing 2px
+				font-weight bold
+				font-family 'Ubuntu Mono', monospace
+				text-transform uppercase
+
+				@media only screen and (max-width: 800px)
+					width 180px
+			
+			input[type="submit"]
+				margin 0 0 0 20px
+
+
+		#request-form
+
+			.flex
+				flex-direction column
+				align-items flex-start
+
+			input[type="submit"]
+				margin 0 
+				align-self center
+
+		@media only screen and (max-width: 800px)
+
+			#confirm-form
+
+				.flex
+					flex-direction column
+					align-items center
+
+					input
+						margin 0
+
+						&[type="submit"]
+							margin-top 20px
+
+	> h2
+		color white
+		font-size 22px
+		font-weight 100
+		padding-bottom 10px
+
+	#stage2
+
+		form
+			flex-direction column
+			align-items flex-start
+			padding 15px
+
+			h2
+				font-size 22px
+				text-transform none
+				padding-top 10px
+			h4
+				font-size 16px
+				color #666
+				text-transform uppercase
+				font-weight 100
+				margin-bottom 20px
+	
+			.participants
+				display flex
+				flex-flow wrap
+				width 100%
+				justify-content space-between
+
+				.participant
+					width 48%
+					margin 20px 0
+
+
+					input
+						margin-bottom 10px
+
+					@media only screen and (max-width: 800px)
+						width 100%
+			
+			@media only screen and (max-width: 800px)
+				padding 0
+
+			input[type="submit"]
+				margin 0 
+				align-self center
+
+	form
+
+		width 100%
+
+		h2
+			color white !important
+
+		h3
+			font-weight 100
+			padding-bottom 10px
+			color #ccc
+
+		.hr
+			height 1px
+			width 100%
+			margin 0 0 20px 0
+			background #555
+
+		p
+			margin 20px 0
+
+		#error
+			color red
+
+		> .flex
+			justify-content center
+			margin 30px 0 25px 0
+			width 100%
+
+		input
+			width 100%
+			border 1px solid #666
+			background #0003
+			color #eee
+			font-family Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+			padding 10px
+			font-size 17px
+			outline none
+			font-weight 100
+			margin-bottom 30px
+			border-radius 0
+			-webkit-appearance none
+
+		input[type="tel"]
+			width auto
+
+			@media only screen and (max-width: 800px)
+				width 100%
+
+		textarea
+			max-width 100%
+			min-width 100%
+		
+		input[type="submit"]
+			width auto
+			padding 10px 20px
+			text-transform uppercase
+			cursor pointer
+			color #ccc
+			font-family Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+			transition 0.2s all linear
+
+			&:hover, &:focus, &:active
+				border-color orange
+				color orange
